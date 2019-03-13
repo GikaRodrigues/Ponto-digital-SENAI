@@ -30,7 +30,6 @@ a{
     width: 1900px;
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 20px;
 }
 .logo{
     display: flex;
@@ -58,5 +57,22 @@ nav a{
     font-size: 30px;
     height: 40px;
     width: 145px;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    max-width: 1920px;
+    height: 300px;
+    display: flex;
+    background-image: url(../img/Retângulo\ degrade\ 2.png);
+}
+.conteudo_footer{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+footer img{
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
