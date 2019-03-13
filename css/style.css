@@ -9,70 +9,85 @@ body{
 header{
     width: 100%;
     max-width: 1920px;
-    height: 500px;
+    height: 450px;
     background-image: url(../img/Retâgulo\ degrade\ original.png);
-    margin: auto;
 }
 p , a{
     font-family: 'Sui Generis Free','Calibri';
     font-size: 20px
 
 }
-a{
-    display: flex;
-}
+
 .ptbr{
     display: flex;
     flex-direction: row-reverse;
     margin-right: 97px;
 }
 .conteudo_imagens{
-    width: 1900px;
+    text-decoration: none;
+    list-style-type: none;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-right: 25px;
 }
 .logo{
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
-    text-align: start;
+    margin-left: 300px;
 
 }
 .logo p{
     margin-left: 85px;
+    margin-top: 20px;
 }
-nav > ul {
+.conteudo_menu > ul {
     list-style-type: none;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     margin-left: 800px;
 }
-nav a{
+.conteudo_menu a{
     display: flex;
     text-decoration: none;
     color: black;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.342);
     font-size: 30px;
-    height: 40px;
+    height: 50px;
     width: 145px;
     justify-content: center;
+    text-align: center;
 }
-footer{
-    width: 100%;
+.div_pai{
+    width: 70%;
+    height: 100%;
     max-width: 1920px;
-    height: 300px;
-    display: flex;
-    background-image: url(../img/Retângulo\ degrade\ 2.png);
+    text-align: center;
+    background-color: rgb(157, 255, 0);
+    margin: auto;
 }
-.conteudo_footer{
+.sobre-o-site{
     display: flex;
-    flex-direction: row-reverse;
-    
-}
-footer img{
-    display: flex;
-    align-items: center;
     justify-content: center;
+    background-color: rgb(0, 119, 255);
+    height: 150px;
+    width: 80%;
+    align-items: center;
+    margin-top: 10%;
+}
+.conteudo_destaques{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.conteudo_destaques p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    background-color: aqua;
+    height: 150px;
 }
