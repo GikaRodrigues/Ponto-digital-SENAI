@@ -9,8 +9,9 @@ body{
 header{
     width: 100%;
     max-width: 1920px;
-    height: 450px;
+    height: 500px;
     background-image: url(../img/Retâgulo\ degrade\ original.png);
+    margin: auto;
 }
 p , a{
     font-family: 'Sui Generis Free','Calibri';
@@ -21,73 +22,55 @@ p , a{
 .ptbr{
     display: flex;
     flex-direction: row-reverse;
-    margin-right: 97px;
+    margin-right: 120px;
 }
 .conteudo_imagens{
+    width: 20%;
+    max-width: 1920px;
+    margin: auto;
     text-decoration: none;
     list-style-type: none;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-start;
+    justify-content: space-around;
     margin-right: 25px;
 }
 .logo{
     display: flex;
     flex-direction: column;
-    margin-left: 300px;
+    margin-left: 250px;
+    text-align: start;
 
 }
 .logo p{
+    margin-top: 25px;
     margin-left: 85px;
-    margin-top: 20px;
+}
+.conteudo_menu{
+    width: 50%;
+    max-width: 1920px;
+    margin: auto;
+    margin-right: 30px;
 }
 .conteudo_menu > ul {
     list-style-type: none;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 800px;
+
 }
 .conteudo_menu a{
     display: flex;
     text-decoration: none;
     color: black;
-    background-color: rgba(0, 0, 255, 0.342);
+    background-color: blue;
     font-size: 30px;
-    height: 50px;
+    height: 40px;
     width: 145px;
     justify-content: center;
-    text-align: center;
 }
-.div_pai{
-    width: 70%;
-    height: 100%;
-    max-width: 1920px;
-    text-align: center;
-    background-color: rgb(157, 255, 0);
+section{
+    width: 1366px;
     margin: auto;
-}
-.sobre-o-site{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(0, 119, 255);
-    height: 150px;
-    width: 80%;
-    align-items: center;
-    margin-top: 10%;
-}
-.conteudo_destaques{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-.conteudo_destaques p{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 70px;
-    background-color: aqua;
-    height: 150px;
+    background: rgb(172, 150, 150);
 }
