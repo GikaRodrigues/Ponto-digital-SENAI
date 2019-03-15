@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    max-width: 1920px;
+}
+header{
+    width: 100%;
+    max-width: 1920px;
+    height: 450px;
+    background-image: url(../img/Retâgulo\ degrade\ original.png);
+    margin: auto;
+}
+p , a{
+    font-family: 'Sui Generis Free','Calibri';
+    font-size: 20px
+
+}
+
+.ptbr{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 120px;
+}
+.conteudo_imagens{
+    width: 22%;
+    max-width: 1920px;
+    margin: auto;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    text-align: start;
+
+}
+.logo p{
+    background-color: rgba(0, 139, 139, 0.185);
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+.slogan{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+.conteudo_menu{
+    width: 60%;
+    max-width: 1920px;
+    margin: auto;
+    margin-right: 30px;
+}
+.conteudo_menu > ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.conteudo_menu a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    background-color: blue;
+    font-size: 30px;
+    height: 40px;
+    width: 145px;
+    justify-content: center;
+}
+section{
+    width: 1366px;
+    margin: auto;
+    background-color: #ff99330c;
+    display: flex;
+    flex-direction: column;
+}
+.produtos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.produtos p{
+    font-size: 40px;
+    text-align: center;
+    width: 270px;
+    height: 50px;
+    background-color: rgb(0, 132, 255);
+}
+.conteudo_produtos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.conteudo_produtos p{
+    background-color: #ff9933;
+    text-align: center;
+    width: 270px;
+    height:160px;
+}
+.beneficios{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.beneficios p{
+    font-size: 40px;
+    text-align: center;
+    width: 270px;
+    height: 100px;
+    background-color: rgb(0, 132, 255);
+}
+.conteudo_beneficios{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.conteudo_beneficios p{
+    background-color: #ff9933;
+    text-align: center;
+    width: 270px;
+    height:160px;
+}
