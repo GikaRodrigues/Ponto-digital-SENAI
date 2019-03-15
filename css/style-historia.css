@@ -53,7 +53,7 @@ p , a{
     height: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 .conteudo_menu{
     width: 50%;
@@ -118,4 +118,16 @@ margin-top: 50px
     text-align: center;
     height: 100px;
     display: flex;
+}
+.empresa{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.empresa p{
+    font-size: 40px;
+    text-align: center;
+    width: 310px;
+    height: 100px;
+    background-color: rgb(0, 132, 255);
 }
