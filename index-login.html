@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style-contato.css">
+    <link rel="stylesheet" href="css/style-login.css">
     <title>Ponto Digital</title>
 </head>
 <body>
     <header>
         <div>
             <div class="conteudo_imagens">
-                <div class="login">
+                <div class="login2">
                 <a href="index-login.html">LOGIN</a>
                 </div>
                 <img src="img/Brasil.png" alt="" width="75" height="50">
@@ -41,34 +41,28 @@
     </header>
 
     <section>
-        <div class="contato">
-        <p>Contato</p>
+        <div class="login">
+        <p>Login</p>
         </div>
         <div class="formulario_cadastro">
                 <form action="" method="POST">
                         <div class="caixa_texto">
-                        <label for="nome">Nome Completo: </label>
-                        <br>
-                        <input type="text" name="nome" maxlength="60" required>
-                        <br>
                         <label for="email_cliente">E-mail:</label>
                         <br>
                         <input type="email" maxlength="50" required>
                         <br>
-                        <label for="telefone">Tel. Celular:</label>
+                        <label for="senha">Senha:</label>
                         <br>
-                        <input type="tel" name="telefone">
+                        <input type="password" name="senha" required>
                         <br>
-                        <div class="mensagem">
-                        <label for="texto">Mensagem:</label>
-                        <br>
-                        <textarea name="menssagem" id="menssagem" cols="50" rows="10"></textarea>
-                        </div>
                         </div>
                         <div class="submit">
-                                <input type="submit" value="Enviar">
+                                <input type="submit" value="Continuar">
                         </div>
                     </form>
+                </div>
+                <div class="conta">
+                    <a href="index-cadastro.html">Ainda não possui conta? <br> Cadastre-se aqui</a>
                 </div>
     </section>
 
@@ -81,6 +75,7 @@
                 <p>Telefone</p>
                 <p>E-mail</p>
             </div>
+            
         </div>
     </footer>
 

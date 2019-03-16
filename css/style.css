@@ -18,22 +18,22 @@ p , a{
     font-size: 20px
 
 }
-
-.ptbr{
+.div_imagens{
+    width: 400px;
     display: flex;
-    flex-direction: row-reverse;
-    margin-right: 120px;
-}
-.conteudo_imagens{
-    width: 20%;
-    max-width: 1920px;
     margin: auto;
-    text-decoration: none;
-    list-style-type: none;
+    margin-right: 25px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.div_imagens img{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
-    margin-right: 25px;
+}
+
+.div_imagens a{
+    height: 50px;
+    display: flex;
 }
 .logo{
     display: flex;
@@ -79,24 +79,28 @@ footer{
     max-width: 1920px;
     height: 250px;
     background-image: url(../img/Retângulo\ degrade\ 2.png);
-    margin: auto;
 }
 .conteudo_footer{
-    width: 200px;
-    height: 70px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.conteudo_footer p{
-    background-color: rgba(0, 0, 214, 0.267);
-    height: 30px;
-}
-.img{
-    width: 100px;
+    width: 100%;
+    max-width: 1920px;
     height: 100px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.conteudo_footer p{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: #ff993331;
+    border-radius: 5px;
+    font-size: 25px;
+    display: flex;
     justify-content: center;
 }
+

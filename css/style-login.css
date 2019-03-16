@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     width: 100%;
@@ -11,7 +12,6 @@ header{
     max-width: 1920px;
     height: 450px;
     background-image: url(../img/Retâgulo\ degrade\ original.png);
-    margin: auto;
 }
 p , a{
     font-family: 'Sui Generis Free','Calibri';
@@ -19,7 +19,7 @@ p , a{
 
 }
 .conteudo_imagens{
-    width: 22%;
+    width: 20%;
     max-width: 1920px;
     margin: auto;
     text-decoration: none;
@@ -28,6 +28,11 @@ p , a{
     flex-direction: row-reverse;
     justify-content: space-around;
     margin-right: 30px;
+}
+.conteudo_imagens a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
 }
 .logo{
     display: flex;
@@ -72,10 +77,6 @@ p , a{
     width: 145px;
     justify-content: center;
 }
-.login{
-    text-decoration: none;
-    list-style-type: none;
-}
 section{
     width: 1366px;
     margin: auto;
@@ -83,13 +84,13 @@ section{
     display: flex;
     flex-direction: column;
 }
-.contato{
+.login{
     display: flex;
     justify-content: center;
     margin-top: 35px;
     margin-bottom: 100px;
 }
-.contato p{
+.login p{
     font-size: 40px;
     text-align: center;
     width: 270px;
@@ -98,9 +99,11 @@ section{
 }
 .formulario_cadastro{
     width: 505px;
-    height: 500px;
+    height: 200px;
     font-family: 'Sui Generis Free','Calibri';
     font-size: 20px;
+    margin-left: 40px;
+    margin-top: 100px;
     margin: auto;
 }
 .submit{
@@ -108,13 +111,26 @@ section{
     display: flex;
     justify-content: center;
 }
-input{
+.caixa_texto input{
     height: 30px;
     width: 500px;
     margin-top: 5px;
 }
-textarea{
-    width: 500px;
+.conta{
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    margin-right: 0;
+    text-align: right;
+
+}
+.conta a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 footer{
     width: 100%;
@@ -129,7 +145,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .img{
     display: flex;
@@ -146,4 +162,3 @@ footer{
     display: flex;
     justify-content: center;
 }
-
